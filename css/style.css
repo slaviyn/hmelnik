@@ -1,0 +1,169 @@
+body {
+	background-color: #2b4712;
+}
+.row {
+	margin:0 !important;
+	padding:0 !important;
+}
+.banner10 {
+    background: url('../img/sigareta-e1449397584927.jpg');
+ 	background-size: cover;
+ }
+.logo-1 {
+     background-color: #013300;
+     display: flex; 
+     justify-content: center; 
+     align-items: center;
+ }
+.header-text {
+	background-color: #013300;
+	color: #fff;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.header-text>h1 {
+	font-size: 2.5vw;
+}
+/*меню*/
+.bg-light {
+	margin-left: -15px;
+	margin-right: -15px;
+}
+/* слайдер*/
+.slider {
+	width: 100%;
+	overflow: hidden;
+	margin: auto;
+	padding-top: 15px;
+	background: #013300;
+	display: flex;
+	justify-content: center;
+	align-items: center;  
+}
+
+.carousel-hider {
+  width: 620px;
+  overflow: hidden;
+  float: left;
+}
+
+.carousel-list {
+  list-style: none;
+  width: 10000px;
+  position: relative;
+  padding: 0;
+}
+
+.carousel-element {
+  display: block;
+  margin-right: 10px;
+  float: left;
+}
+
+.carousel-element img {
+  max-width: 300px;
+}
+
+.carousel-element>p {
+  text-align: center;
+  padding-bottom: 0px;
+  color: #fff;
+  font-size: 2vw;
+}
+.carousel-arrow-left:hover, .carousel-arrow-right:hover {
+    cursor: pointer;
+    background-color: grey;
+}
+
+.carousel-arrow-left {
+    margin-right: 25px;
+}
+
+.carousel-arrow-right {
+    margin-left: 25px;
+}
+/* история */
+.history {
+	background: #fff;
+	padding-bottom: 20px;
+}
+.img_pad {
+	padding: 10px 10px 10px 10px;
+}
+.history_text {
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	font-size: 16px;
+}
+.otziv_zag {
+	background: #efefef;
+	padding-bottom: 20px;
+}
+.text-1 {
+	padding-top: 70px;
+	width: auto;
+	font-size: 24px;
+	color: #fff;
+	font-weight: 700;	
+}
+.text-2 {
+	font-size: 36px;
+	color: #fff;
+	font-weight: 700;	
+}
+.text-3 {
+	padding-bottom: 20px;
+	font-size: 16px;
+	color: #fff;
+}
+.btn-font {
+	font-size: 20px;
+	color: #fff;
+	font-weight: 700;
+	background: #9a0000;
+}
+.btn-font-2 {
+	font-size: 20px;
+	color: #fff;
+	font-weight: 700;
+	background: #ff6500;
+}
+.text-5 {
+	padding-left: 20px;
+	padding-top: 20px;
+	font-size: 30px;
+	color: #000;
+	font-weight: 700;
+}
+.text-6 {
+ 	text-align: center;
+	font-size: 2.0vw;
+	color: #000;
+	font-weight: 700;
+}
+.text-7 {
+	padding-left: auto;
+	font-weight: 700;
+	float: right;
+}
+.img-1 {
+	padding-left: 20px;
+}
+.img-2 {
+	margin: 0 20px 0 20px;
+	float: left;
+	width: 100px;
+	height: 100px;
+}
+.text-footer {
+	background: #000;
+	color: #fff;
+	height: 8vh;
+	font-size: 1.5vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
